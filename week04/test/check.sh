@@ -1,6 +1,6 @@
 #!/bin/bash
 FILE="$1"
-if [ -x "$FILE" ]; then
+if [ -z "$FILE" ]; then
     echo "파일명을 입력하세요"; exit 1
 fi
 if [ -f "$FILE" ]; then

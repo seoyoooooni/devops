@@ -7,5 +7,5 @@
 | [4주차](week04/README.md) | 자동화·협업과 네트워크 | 
 | [5주차](week05/README.md) | Docker와 GitHub Issue | 
 | [6주차](week06/README.md) | Dockerfile과 이미지 공유 | 
-| [7주차](week07/README.md) | Docker Compose와 데이터 영속화 |
+| [7주차](week07/README.md) | Docker Compose |
 
