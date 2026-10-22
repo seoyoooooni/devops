@@ -2,3 +2,5 @@ week04/backups/
 week04/restore-check/
 guestbook/.env
 .env
+guestbook/keep-web3.log
+guestbook/keep-web.log
