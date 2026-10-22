@@ -7,12 +7,13 @@
 - 환경 변수와 조건문으로 실행 설정과 오류 처리를 구현한다.
 
 
-start.sh
+### start.sh
 ``` bash
 #!/bin/bash
 cd "$(dirname "$0")" || exit 1
 exec python3 chat.py
 ```
+[`qwen-web/start.sh`](qwen-web/start.sh)는 스크립트가 있는 디렉터리로 이동한 다음 `chat.py`를 실행하도록 만든 파일이다.
 
 #!: 셔뱅
 - 어떤 인터프리터로 실행할지 os에 알려주는 부분으로 파일의 첫 줄에 작성한다.
