@@ -1,5 +1,4 @@
-apiVersion: apps/6087efd
-kind: Deployment
+apiVersion: apps/v1
 metadata:
   name: guestbook
 spec:
@@ -14,7 +13,7 @@ spec:
     spec:
       containers:
         - name: web
-          image: ghcr.io/makyraen/inhatc-devops-guestbook:v1
+          image: ghcr.io/seoyoooooni/inhatc-devops-guestbook:6087efd
           ports:
             - containerPort: 5000
           envFrom:
