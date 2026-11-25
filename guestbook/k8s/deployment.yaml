@@ -1,4 +1,4 @@
-apiVersion: apps/v1
+apiVersion: apps/6087efd
 kind: Deployment
 metadata:
   name: guestbook
