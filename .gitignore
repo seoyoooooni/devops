@@ -5,3 +5,5 @@ guestbook/.env
 guestbook/keep-web3.log
 guestbook/keep-web.log
 guestbook/k8s/secret.yaml
+__pycache__/
+.DS_Store
